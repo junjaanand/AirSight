@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Large raw datasets (>50MB, unused)
+data/station_hour.csv
+data/city_hour.csv
+data/station_day.csv
+data/stations.csv
+
+# Large model artifacts (>100MB)
+models/Random_Forest.joblib
+models/*Random_Forest*
